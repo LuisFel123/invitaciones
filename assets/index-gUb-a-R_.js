@@ -207,21 +207,20 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         backdrop-blur-md\r
         sm:h-9\r
         sm:w-9\r
-      `,animate:{y:[0,4,0]},transition:{duration:1.5,repeat:1/0,ease:`easeInOut`},children:(0,X.jsx)(`span`,{className:`text-base leading-none text-white sm:text-lg`,children:`↓`})})]})]})]})}function Op({data:e}){let t=`Hola, confirmo mi asistencia a los XV años de ${e.nombre}`,n=`https://wa.me/${e.whatsapp}?text=${encodeURIComponent(t)}`;return(0,X.jsxs)(`section`,{id:`confirmacion`,className:`\r
-        relative\r
-        w-full\r
-        overflow-hidden\r
-        bg-gradient-to-b\r
-        from-[#f7effa]\r
-        via-[#e8d4f0]\r
-        to-[#c59bd5]\r
-        px-5\r
-        py-14\r
-        text-center\r
-        text-[#5c306e]\r
-\r
-        mt-4\r
-      `,children:[(0,X.jsx)(`div`,{className:`\r
+      `,animate:{y:[0,4,0]},transition:{duration:1.5,repeat:1/0,ease:`easeInOut`},children:(0,X.jsx)(`span`,{className:`text-base leading-none text-white sm:text-lg`,children:`↓`})})]})]})]})}function Op({data:e}){let t=`Hola, confirmo mi asistencia a los XV años de ${e.nombre}`,n=`https://wa.me/${e.whatsapp}?text=${encodeURIComponent(t)}`;return(0,X.jsxs)($.section,{id:`confirmacion`,className:`\r
+    relative\r
+    w-full\r
+    overflow-hidden\r
+    bg-gradient-to-b\r
+    from-[#f7effa]\r
+    via-[#e8d4f0]\r
+    to-[#c59bd5]\r
+    px-5\r
+    py-14\r
+    text-center\r
+    text-[#5c306e]\r
+    mt-4\r
+  `,initial:{opacity:0,y:60,scale:.98},whileInView:{opacity:1,y:0,scale:1},viewport:{once:!1,amount:.25},transition:{duration:.9,ease:[.22,1,.36,1]},children:[(0,X.jsx)(`div`,{className:`\r
           pointer-events-none\r
           absolute\r
           inset-0\r
@@ -283,7 +282,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
           opacity-40\r
 \r
           sm:text-4xl\r
-        `,children:`💌`}),(0,X.jsxs)(`div`,{className:`relative z-10 mx-auto w-full max-w-4xl`,children:[(0,X.jsx)(`div`,{className:`\r
+        `,children:`💌`}),(0,X.jsxs)($.div,{className:`relative z-10 mx-auto w-full max-w-4xl`,initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},viewport:{once:!1,amount:.25},transition:{duration:.8,delay:.2},children:[(0,X.jsx)(`div`,{className:`\r
             mx-auto\r
             mb-6\r
             flex\r
@@ -1157,4 +1156,4 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
 \r
             sm:mt-8\r
             sm:text-base\r
-          `,initial:{opacity:0,y:15},animate:a?{opacity:1,y:0}:{opacity:0,y:15},transition:{duration:.7,delay:.35},children:`Recuerdos que permanecerán para siempre.`})]})]})};function Fp(){return(0,b.useEffect)(()=>{document.title=`${$n.nombre} - ${$n.evento}`,(window.location.pathname!==`/invitacion`||window.location.hash!==``)&&window.history.replaceState(null,``,`/invitacion`),window.history.scrollRestoration=`manual`,setTimeout(()=>{window.scrollTo({top:0,left:0,behavior:`auto`})},0)},[]),(0,X.jsxs)(`main`,{className:`min-h-screen overflow-x-hidden bg-[#fff8f1] text-[#4b2e2b]`,children:[(0,X.jsx)(kp,{}),(0,X.jsx)(Dp,{data:$n}),(0,X.jsx)(Ap,{}),(0,X.jsx)(jp,{}),(0,X.jsx)(Mp,{fecha:`2026-08-08T13:00:00-06:00`}),(0,X.jsx)(Pp,{}),(0,X.jsx)(Op,{data:$n})]})}function Ip(){return(0,X.jsx)(X.Fragment,{children:(0,X.jsx)(Mn,{children:(0,X.jsx)(Wt,{children:(0,X.jsx)(Ht,{path:`/invitacionMichelleXV`,element:(0,X.jsx)(Fp,{})})})})})}(0,x.createRoot)(document.getElementById(`root`)).render((0,X.jsx)(b.StrictMode,{children:(0,X.jsx)(Ip,{})}));
+          `,initial:{opacity:0,y:15},animate:a?{opacity:1,y:0}:{opacity:0,y:15},transition:{duration:.7,delay:.35},children:`Recuerdos que permanecerán para siempre.`})]})]})};function Fp(){return(0,b.useEffect)(()=>{document.title=`${$n.nombre} - ${$n.evento}`,(window.location.pathname!==`/invitacionMichelleXV`||window.location.hash!==``)&&window.history.replaceState(null,``,`/invitacionMichelleXV`),window.history.scrollRestoration=`manual`,setTimeout(()=>{window.scrollTo({top:0,left:0,behavior:`auto`})},0)},[]),(0,X.jsxs)(`main`,{className:`min-h-screen overflow-x-hidden bg-[#fff8f1] text-[#4b2e2b]`,children:[(0,X.jsx)(kp,{}),(0,X.jsx)(Dp,{data:$n}),(0,X.jsx)(Ap,{}),(0,X.jsx)(jp,{}),(0,X.jsx)(Mp,{fecha:`2026-08-08T13:00:00-06:00`}),(0,X.jsx)(Pp,{}),(0,X.jsx)(Op,{data:$n})]})}function Ip(){return(0,X.jsx)(X.Fragment,{children:(0,X.jsx)(Mn,{children:(0,X.jsx)(Wt,{children:(0,X.jsx)(Ht,{path:`/invitacionMichelleXV`,element:(0,X.jsx)(Fp,{})})})})})}(0,x.createRoot)(document.getElementById(`root`)).render((0,X.jsx)(b.StrictMode,{children:(0,X.jsx)(Ip,{})}));
